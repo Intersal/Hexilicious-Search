@@ -73,7 +73,7 @@ let hexesData = JSON.parse(localStorage.getItem('hexesData')) || [
     outputs: ['Any']
   },
   {
-    path: 'hexes/stadiometersPurificationpng',
+    path: 'hexes/stadiometerspurificationpng',
     name: "Stadiometer's Purification",
     description: 'Transforms an entity on the stack into its height.',
     inputs: ['Entity'],
