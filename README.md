@@ -10,7 +10,7 @@ To search anything within a Name you can use <> like so: <Mind, Ref>. This will 
 
 To search the description you can use "" for example: "Transforms, Stack". This will return all hexes with both Transforms and Stack in their description.
 
-To search Input and output it is slightly more complicated. an example of how you can use them is like so: [Entity - Vector. This will return all hexes that have both Entity and Vector in their Input and Vector in their output. You can also leave one side blank to search only Input or Output like so: [Entity - ] or [ - Vector]. Though you must put a space on the other side if you do not specify it.
+To search Input and output it is slightly more complicated. an example of how you can use them is like so: [Entity - Vector]. This will return all hexes that have both Entity and Vector in their Input and Vector in their output. You can also leave one side blank to search only Input or Output like so: [Entity - ] or [ - Vector]. Though you must put a space on the other side if you do not specify it.
 
 You can also combine all of these syntaxes together to make more specific searches like so: <Compass> "Transforms" [ - Vector] will return all hexes with Compass in their name, Transforms in their description, and Vector in their output.
 
