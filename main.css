@@ -107,11 +107,9 @@ body {
 }
 
 .fullscreen-image img {
-    max-width: 90%;
-    max-height: 90%;
-    object-fit: contain;
-    border: 2px solid white;
-    border-radius: 10px;
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
 }
 .hex-image:hover {
     cursor: pointer;
